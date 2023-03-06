@@ -1,0 +1,15 @@
+.entire{
+  background-image: url('/src/images/pattern-bg.png');
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+  .entire{
+    padding-top: 2rem ;
+    padding-bottom: 8rem;
+  }
+}
