@@ -22,6 +22,7 @@ const SearchBar = (props) => {
           className='w-96 py-3 rounded-l-lg rounded-r-none rounded-tr-none rounded-br-none border-none outline-none pl-2'
           type='text'
           value={enteredIp}
+          placeholder="Search for any IP address or domain"
           onChange={(event) =>
             setEnteredIp(event.target.value)}
         ></input>
