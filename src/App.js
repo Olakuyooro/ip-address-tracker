@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      `https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_z2f4koXGKX7R4PlioduoZYtlxyHrV&ipAddress=${ipValue}`
+      `https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_pFdxdylU1Lh6D9OluS33LPN2M6VXu&ipAddress=${ipValue}`
     )
       .then((res) => res.json())
       .then((result) => {
